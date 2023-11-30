@@ -77,6 +77,10 @@ textarea {
   text-align: center;
 }
 
+.fw-900 {
+  font-weight: 900;
+}
+
 .fw-700 {
   font-weight: var(--fw-700);
 }
@@ -180,6 +184,9 @@ body {
 @media (min-width: 40em) {
   body {
     background-image: url(images/pattern-background-desktop.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
 
   .hero {
